@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Chat App</string>
+
+    <string name="font_extralightl">fonts/montserrat_extralight.ttf</string>
+    <string name="font_semibold">fonts/montserrat_semibold.ttf</string>
+    <string name="font_lightl">fonts/montserrat_light.ttf</string>
+    <string name="font_normal">fonts/montserrat_regular.ttf</string>
+</resources>

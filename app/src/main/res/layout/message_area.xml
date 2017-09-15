@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidchatapp.Chat">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Write a message..."
+        android:id="@+id/messageArea"
+        android:maxHeight="80dp"
+        android:maxLength="50"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:descendantFocusability="beforeDescendants"
+        android:padding="10dp"
+       android:maxLines="3"
+        />
+
+    <me.alexrs.circularbutton.lib.CircularButton
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="4"
+        android:padding="4dp"
+        android:src="@drawable/ic_send" />
+
+</LinearLayout>
